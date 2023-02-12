@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3 #모바일용 데이터베이스
 
 
   # The following adds the Cupertino Icons font to your application.

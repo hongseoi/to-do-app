@@ -2,7 +2,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:screens/login_screen.dart';
+
+import 'list_screen.dart';
+import 'login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState(): 위젯 빌드되고 바로 실행되는 초기 실행 메소드
     super.initState();
-    Timer(Duration(second:2), (){ //2초 내에 moveScreen() 동작 선언
+    Timer(Duration(seconds:2), (){ //2초 내에 moveScreen() 동작 선언
       moveScreen();
     });
   }
